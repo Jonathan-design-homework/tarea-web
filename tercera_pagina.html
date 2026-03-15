@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario_3</title>
+
+<style>
+body{
+font-family: Arial;
+margin: 30px;
+}
+
+fieldset{
+width: 500px;
+margin-bottom: 40px;
+}
+
+.registro{
+width: 350px;
+border: 1px solid gray;
+}
+
+.titulo{
+background: #49c46a;
+color: black;
+text-align: center;
+padding: 8px;
+font-weight: bold;
+}
+
+.footer{
+background: #49c46a;
+text-align: center;
+padding: 8px;
+}
+
+label{
+display: inline-block;
+width: 140px;
+margin-top: 5px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Formulario WEB basico</h1>
+
+<form>
+
+<fieldset>
+<legend>Informacion del usuario</legend>
+
+<label>Nombre:</label>
+<input type="text" placeholder="Nombre de usuario...">
+<br><br>
+
+<label>Direccion e-mail:</label>
+<input type="email">
+<br><br>
+
+<label>Ciudad:</label>
+<select>
+<option>Selecciona ciudad...</option>
+<option>Tegucigalpa</option>
+<option>San Pedro Sula</option>
+<option>La Ceiba</option>
+</select>
+
+<br><br>
+
+Aficiones:<br>
+
+<input type="checkbox"> Deportes <br>
+<input type="checkbox"> Coches <br>
+<input type="checkbox"> Musica
+
+<br><br>
+
+Sexo:<br>
+
+<input type="radio" name="sexo"> Masculino <br>
+<input type="radio" name="sexo"> Femenino
+
+<br><br>
+
+<input type="submit" value="Enviar formulario">
+<input type="reset" value="Limpiar formulario">
+
+</fieldset>
+
+</form>
+
+<br>
+
+<form class="registro">
+
+<div class="titulo">
+Registro de trabajadores
+</div>
+
+<br>
+
+<label>Rut:</label>
+<input type="text"><br>
+
+<label>Nombre:</label>
+<input type="text"><br>
+
+<label>Apellido Paterno:</label>
+<input type="text"><br>
+
+<label>Apellido Materno:</label>
+<input type="text"><br>
+
+<label>Sexo:</label>
+<input type="radio" name="sexo2"> Masculino
+<input type="radio" name="sexo2"> Femenino
+<br><br>
+
+<label>Nivel de estudios:</label><br>
+
+<input type="checkbox"> No tiene<br>
+<input type="checkbox"> Tecnico<br>
+<input type="checkbox"> Universitario
+<br><br>
+
+<label>Ciudad nacimiento:</label>
+<select>
+<option>Rengo</option>
+<option>Santiago</option>
+<option>Valparaiso</option>
+</select>
+<br><br>
+
+<label>Curriculum:</label>
+<input type="file"><br>
+
+<label>Foto:</label>
+<input type="file"><br><br>
+
+<div class="footer">
+<input type="submit" value="Registrar trabajador">
+</div>
+
+</form>
+
+</body>
+</html>
